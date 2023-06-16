@@ -132,6 +132,7 @@ sitemap: {
     }
   }
 },
+babel: { compact: true },
   axios: {
     baseURL: "http://192.168.114.152:8000",
     proxy: true,
