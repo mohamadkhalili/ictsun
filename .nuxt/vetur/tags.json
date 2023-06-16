@@ -5,20 +5,20 @@
   "BlogDetails": {
     "description": "Auto imported from components/Blog-details/index.vue"
   },
-  "BlogGrid": {
-    "description": "Auto imported from components/Blog-grid/index.vue"
+  "CkeditorNuxt": {
+    "description": "Auto imported from components/Ckeditor-nuxt/index.vue"
   },
   "Footer": {
     "description": "Auto imported from components/Footer/index.vue"
-  },
-  "CkeditorNuxt": {
-    "description": "Auto imported from components/Ckeditor-nuxt/index.vue"
   },
   "IntroWithSlider": {
     "description": "Auto imported from components/Intro-with-slider/index.vue"
   },
   "Loading": {
     "description": "Auto imported from components/Loading/index.vue"
+  },
+  "BlogGrid": {
+    "description": "Auto imported from components/Blog-grid/index.vue"
   },
   "Navbar": {
     "description": "Auto imported from components/Navbar/index.vue"
@@ -38,11 +38,11 @@
   "PublicSelect": {
     "description": "Auto imported from components/public/Select.vue"
   },
-  "Services1": {
-    "description": "Auto imported from components/Services1/index.vue"
-  },
   "ScrollToTop": {
     "description": "Auto imported from components/Scroll-to-top/index.vue"
+  },
+  "Services1": {
+    "description": "Auto imported from components/Services1/index.vue"
   },
   "Works1": {
     "description": "Auto imported from components/Works1/index.vue"

@@ -2,56 +2,56 @@
   {
     "name": "admin",
     "path": "/admin",
-    "component": "C:\\\\programming\\\\ictsun\\\\pages\\\\admin\\\\index.vue",
+    "component": "C:\\\\programming\\\\mygithub\\\\ictsun\\\\pages\\\\admin\\\\index.vue",
     "chunkName": "pages/admin/index",
     "url": "/admin",
-    "_name": "_0f38bc21"
+    "_name": "_4b42861c"
   },
   {
     "name": "blog",
     "path": "/blog",
-    "component": "C:\\\\programming\\\\ictsun\\\\pages\\\\blog\\\\index.vue",
+    "component": "C:\\\\programming\\\\mygithub\\\\ictsun\\\\pages\\\\blog\\\\index.vue",
     "chunkName": "pages/blog/index",
     "url": "/blog",
-    "_name": "_58080d3c"
+    "_name": "_1c9a1a71"
   },
   {
     "name": "admin-blog",
     "path": "/admin/blog",
-    "component": "C:\\\\programming\\\\ictsun\\\\pages\\\\admin\\\\blog\\\\index.vue",
+    "component": "C:\\\\programming\\\\mygithub\\\\ictsun\\\\pages\\\\admin\\\\blog\\\\index.vue",
     "chunkName": "pages/admin/blog/index",
     "url": "/admin/blog",
-    "_name": "_7c64527f"
+    "_name": "_0300b290"
   },
   {
     "name": "admin-blog-add",
     "path": "/admin/blog/add",
-    "component": "C:\\\\programming\\\\ictsun\\\\pages\\\\admin\\\\blog\\\\add.vue",
+    "component": "C:\\\\programming\\\\mygithub\\\\ictsun\\\\pages\\\\admin\\\\blog\\\\add.vue",
     "chunkName": "pages/admin/blog/add",
     "url": "/admin/blog/add",
-    "_name": "_7251b7e4"
+    "_name": "_cb035742"
   },
   {
     "name": "admin-blog-edit",
     "path": "/admin/blog/edit",
-    "component": "C:\\\\programming\\\\ictsun\\\\pages\\\\admin\\\\blog\\\\edit.vue",
+    "component": "C:\\\\programming\\\\mygithub\\\\ictsun\\\\pages\\\\admin\\\\blog\\\\edit.vue",
     "chunkName": "pages/admin/blog/edit",
     "url": "/admin/blog/edit",
-    "_name": "_8057f626"
+    "_name": "_6112debc"
   },
   {
     "name": "blog-id-slug",
     "path": "/blog/:id/:slug",
-    "component": "C:\\\\programming\\\\ictsun\\\\pages\\\\blog\\\\_id\\\\_slug\\\\index.vue",
+    "component": "C:\\\\programming\\\\mygithub\\\\ictsun\\\\pages\\\\blog\\\\_id\\\\_slug\\\\index.vue",
     "chunkName": "pages/blog/_id/_slug/index",
-    "_name": "_028fe25c"
+    "_name": "_27da1161"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\programming\\\\ictsun\\\\pages\\\\index.vue",
+    "component": "C:\\\\programming\\\\mygithub\\\\ictsun\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
     "url": "/",
-    "_name": "_8077ed78"
+    "_name": "_5d97e193"
   }
 ]

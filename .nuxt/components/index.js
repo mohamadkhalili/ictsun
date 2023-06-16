@@ -1,19 +1,19 @@
-export { default as AboutUs1 } from '../..\\components\\About-us1\\index.vue'
-export { default as BlogDetails } from '../..\\components\\Blog-details\\index.vue'
-export { default as BlogGrid } from '../..\\components\\Blog-grid\\index.vue'
-export { default as Footer } from '../..\\components\\Footer\\index.vue'
-export { default as CkeditorNuxt } from '../..\\components\\Ckeditor-nuxt\\index.vue'
-export { default as IntroWithSlider } from '../..\\components\\Intro-with-slider\\index.vue'
-export { default as Loading } from '../..\\components\\Loading\\index.vue'
-export { default as Navbar } from '../..\\components\\Navbar\\index.vue'
-export { default as MouseCursor } from '../..\\components\\Mouse-cursor\\index.vue'
-export { default as PageHeader } from '../..\\components\\Page-header\\index.vue'
-export { default as PublicFileInput } from '../..\\components\\public\\File-input.vue'
-export { default as PublicInput } from '../..\\components\\public\\Input.vue'
-export { default as PublicSelect } from '../..\\components\\public\\Select.vue'
-export { default as Services1 } from '../..\\components\\Services1\\index.vue'
-export { default as ScrollToTop } from '../..\\components\\Scroll-to-top\\index.vue'
-export { default as Works1 } from '../..\\components\\Works1\\index.vue'
+export const AboutUs1 = () => import('../..\\components\\About-us1\\index.vue' /* webpackChunkName: "components/about-us1" */).then(c => wrapFunctional(c.default || c))
+export const BlogDetails = () => import('../..\\components\\Blog-details\\index.vue' /* webpackChunkName: "components/blog-details" */).then(c => wrapFunctional(c.default || c))
+export const CkeditorNuxt = () => import('../..\\components\\Ckeditor-nuxt\\index.vue' /* webpackChunkName: "components/ckeditor-nuxt" */).then(c => wrapFunctional(c.default || c))
+export const Footer = () => import('../..\\components\\Footer\\index.vue' /* webpackChunkName: "components/footer" */).then(c => wrapFunctional(c.default || c))
+export const IntroWithSlider = () => import('../..\\components\\Intro-with-slider\\index.vue' /* webpackChunkName: "components/intro-with-slider" */).then(c => wrapFunctional(c.default || c))
+export const Loading = () => import('../..\\components\\Loading\\index.vue' /* webpackChunkName: "components/loading" */).then(c => wrapFunctional(c.default || c))
+export const BlogGrid = () => import('../..\\components\\Blog-grid\\index.vue' /* webpackChunkName: "components/blog-grid" */).then(c => wrapFunctional(c.default || c))
+export const Navbar = () => import('../..\\components\\Navbar\\index.vue' /* webpackChunkName: "components/navbar" */).then(c => wrapFunctional(c.default || c))
+export const MouseCursor = () => import('../..\\components\\Mouse-cursor\\index.vue' /* webpackChunkName: "components/mouse-cursor" */).then(c => wrapFunctional(c.default || c))
+export const PageHeader = () => import('../..\\components\\Page-header\\index.vue' /* webpackChunkName: "components/page-header" */).then(c => wrapFunctional(c.default || c))
+export const PublicFileInput = () => import('../..\\components\\public\\File-input.vue' /* webpackChunkName: "components/public-file-input" */).then(c => wrapFunctional(c.default || c))
+export const PublicInput = () => import('../..\\components\\public\\Input.vue' /* webpackChunkName: "components/public-input" */).then(c => wrapFunctional(c.default || c))
+export const PublicSelect = () => import('../..\\components\\public\\Select.vue' /* webpackChunkName: "components/public-select" */).then(c => wrapFunctional(c.default || c))
+export const ScrollToTop = () => import('../..\\components\\Scroll-to-top\\index.vue' /* webpackChunkName: "components/scroll-to-top" */).then(c => wrapFunctional(c.default || c))
+export const Services1 = () => import('../..\\components\\Services1\\index.vue' /* webpackChunkName: "components/services1" */).then(c => wrapFunctional(c.default || c))
+export const Works1 = () => import('../..\\components\\Works1\\index.vue' /* webpackChunkName: "components/works1" */).then(c => wrapFunctional(c.default || c))
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {
