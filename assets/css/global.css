@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "IRANSans";
+  font-style: normal;
+  font-weight: 900;
+  src: url(~/assets/persianFonts/IRANSans/persian/IRANSansWebFaNumBlack.woff2) format("woff2");
+}
+@font-face {
+  font-family: "IRANSans";
+  font-style: normal;
+  font-weight: bold;
+  src: url(~/assets/persianFonts/IRANSans/persian/IRANSansWebFaNumBold.woff2) format("woff2");
+}
+@font-face {
+  font-family: "IRANSans";
+  font-style: normal;
+  font-weight: 500;
+  src: url(~/assets/persianFonts/IRANSans/persian/IRANSansWebFaNumMedium.woff2) format("woff2");
+}
+@font-face {
+  font-family: "IRANSans";
+  font-style: normal;
+  font-weight: 300;
+  src: url(~/assets/persianFonts/IRANSans/persian/IRANSansWebFaNumLight.woff2) format("woff2");
+}
+@font-face {
+  font-family: "IRANSans";
+  font-style: normal;
+  font-weight: 200;
+  src: url(~/assets/persianFonts/IRANSans/persian/IRANSansWebFaNumUltraLight.woff2) format("woff2");
+}
+@font-face {
+  font-family: "IRANSans";
+  font-style: normal;
+  font-weight: normal;
+  src: url(~/assets/persianFonts/IRANSans/persian/IRANSansWebFaNum.woff2) format("woff2");
+}
+@font-face {
+  font-family: "IRANSansEnglish";
+  font-style: normal;
+  font-weight: 900;
+  src: url(~/assets/persianFonts/IRANSans/english/IRANSansWebBlack.woff2) format("woff2");
+}
+@font-face {
+  font-family: "IRANSansEnglish";
+  font-style: normal;
+  font-weight: bold;
+  src: url(~/assets/persianFonts/IRANSans/english/IRANSansWebBold.woff2) format("woff2");
+}
+@font-face {
+  font-family: "IRANSansEnglish";
+  font-style: normal;
+  font-weight: 500;
+  src: url(~/assets/persianFonts/IRANSans/english/IRANSansWebMedium.woff2) format("woff2");
+}
+@font-face {
+  font-family: "IRANSansEnglish";
+  font-style: normal;
+  font-weight: 300;
+  src: url(~/assets/persianFonts/IRANSans/english/IRANSansWebLight.woff2) format("woff2");
+}
+@font-face {
+  font-family: "IRANSansEnglish";
+  font-style: normal;
+  font-weight: 200;
+  src: url(~/assets/persianFonts/IRANSans/english/IRANSansWebUltraLight.woff2) format("woff2");
+}
+@font-face {
+  font-family: "IRANSansEnglish";
+  font-style: normal;
+  font-weight: normal;
+  src: url(~/assets/persianFonts/IRANSans/english/IRANSansWeb.woff2) format("woff2");
+}

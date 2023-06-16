@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "manabattery",
+    "secTex": "manabattery.ir",
+    "image": "/img/portfolio/metro/manabattery.jpg",
+    "slug": "/project-details2/project-manabattery"
+  },
+  {
+    "id": 2,
+    "title": "AliAryaAhmadian",
+    "secTex": "منقضی شده",
+    "image": "/img/portfolio/metro/ahmadian.jpg",
+    "slug": "/project-details2/project-ahmadian"
+  },
+  {
+    "id": 3,
+    "title": "Sisno",
+    "secTex": "Sisno.ir",
+    "image": "/img/portfolio/metro/sisno.jpg",
+    "slug": "/project-details2/project-sisno"
+  },
+  {
+    "id": 4,
+    "title": "manelimusic",
+    "secTex": "منقضی شده",
+    "image": "/img/portfolio/metro/manelimusic.jpg",
+    "slug": "/project-details2/project-manelimusic"
+  },
+  {
+    "id": 5,
+    "title": "Smell Shop",
+    "secTex": "در دست ساخت",
+    "image": "/img/portfolio/metro/smell.jpg",
+    "slug": "/project-details2/project-smell-shop"
+  }
+]

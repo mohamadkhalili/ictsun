@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "icon": "pe-7s-paint-bucket",
+    "title": "طراحی گرافیک",
+    "content": "از امکانات ما قابلیت طراحی اختصاصی گرافیکی برای سایت شماست."
+  },
+  {
+    "id": 2,
+    "icon": "pe-7s-phone",
+    "title": "سازگاری",
+    "content": "سایت های ما با انواع ابزارهای موجود بخصوص تلفن همراه سازگاری کامل را دارد."
+  },
+  {
+    "id": 3,
+    "icon": "pe-7s-display1",
+    "title": "آمار و تحلیل",
+    "content": "ما در ICTSUN آمار و بازدید سایت شما را تحلیل و گزارش آنرا جهت اطلاع از عملکرد خود در اختیارتان قرار می دهیم."
+  },
+  {
+    "id": 4,
+    "icon": "pe-7s-diskette",
+    "title": "Document Legal Policy",
+    "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+  }
+]
