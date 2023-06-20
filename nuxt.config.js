@@ -93,29 +93,29 @@ sitemap: {
       path: '/blog/sitemap.xml',
       exclude: [],
       routes: async () => {
-          let apiUrl = 'http://ictsun.ir/postsmap/' // or API url
+          let apiUrl = 'http://192.168.114.152:8000/postsmap/' // or API url
           const { data } = await axios.get(`${apiUrl}`)
           return data.posts.map(v => `/${v.id}/${v.slug}`)
         }
     },
-    // {
-    //   path: '/store2/sitemap.xml',
-    //   exclude: [],
-    //   routes: async () => {
-    //       let apiUrl = 'your site url' // or API url
-    //       const { data } = await axios.get(`${apiUrl}store2`)
-    //       return data.data.map(v => `/${v.id}`)
-    //     }
-    // },
-    // {
-    //   path: '/store3/sitemap.xml',
-    //   exclude: [],
-    //   routes: async () => {
-    //       let apiUrl = 'your site url' // or API url
-    //       const { data } = await axios.get(`${apiUrl}store3`)
-    //       return data.data.map(v => `/${v.id}`)
-    //     }
-    // },
+    {
+      path: '/store2/sitemap.xml',
+      exclude: [],
+      routes: async () => {
+          let apiUrl = 'your site url' // or API url
+          const { data } = await axios.get(`${apiUrl}store2`)
+          return data.data.map(v => `/${v.id}`)
+        }
+    },
+    {
+      path: '/store3/sitemap.xml',
+      exclude: [],
+      routes: async () => {
+          let apiUrl = 'your site url' // or API url
+          const { data } = await axios.get(`${apiUrl}store3`)
+          return data.data.map(v => `/${v.id}`)
+        }
+    },
   ]
 },
   auth: {
@@ -124,29 +124,29 @@ sitemap: {
         // scheme: 'refresh',
 
         endpoints: {
-          login: { url: "http://ictsun.ir/api/users/login/", method: "post" },
-          user: { url: 'http://ictsun.ir/api/auth/user', method: 'get' },
-          logout: { url: 'http://ictsun.ir/api/auth/logout', method: 'post' }
+          login: { url: "/api/users/login/", method: "post" },
+          user: { url: '/api/auth/user', method: 'get' },
+          logout: { url: '/api/auth/logout', method: 'post' }
         },
 
     }
   }
 },
-  // axios: {
-  //   baseURL: "http://192.168.114.152:8000",
-  //   proxy: true,
-  // },
+  axios: {
+    baseURL: "http://192.168.114.152:8000",
+    proxy: true,
+  },
 
-  // proxy: {
-  //   '/api/': {
-  //     target: 'http://192.168.114.102:8000',
-  //     pathRewrite: { '^/api/': '/' }
-  //   },
-  //   '/media/': {
-  //     target: 'http://192.168.114.102:8000',
-  //     pathRewrite: { '^/api/': '/media/' }
-  //   },
-  // },
+  proxy: {
+    '/api/': {
+      target: 'http://192.168.114.102:8000',
+      pathRewrite: { '^/api/': '/' }
+    },
+    '/media/': {
+      target: 'http://192.168.114.102:8000',
+      pathRewrite: { '^/api/': '/media/' }
+    },
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
